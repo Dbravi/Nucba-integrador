@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+  <title>integrador-nucba</title>
+</head>
+
+<body>
+  <main>
+    <header>
+      <section class="landing" id="home">
+        <img src="./images/flower.svg" alt="Imagen de flor" />
+        <h1>Hair-arg</h1>
+        <h2>ESTILISTAS</h2>
+        <h3>Servicio de peluquería, peinado y maquillaje a domicilio.</h3>
+        <h5>30 años de experiencia en salones de primer nivel</h5>
+      </section>
+      <nav>
+        <div class="topnav" id="myTopnav">
+          <span></span>
+          <a href="#contactame" onclick="myFunction()">Contacto</a>
+          <span></span>
+          <a href="./login.html" onclick="myFunction()">Login</a>
+          <span></span>
+          <a href="./signup.html" onclick="myFunction()">Registrarse</a>
+          <span></span>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars fa-2x"></i>
+          </a>
+        </div>
+      </nav>
+
+    </header>
+
+    <section class="services" id="servicios">
+      <div class="cards">
+        <img src="./images/Cortes.webp" alt="Corte de pelo" />
+        <h1>Cortes de pelo</h1>
+        <h3>La mejor técnica.</h3>
+      </div>
+      <div class="cards">
+        <img src="./images/Peinados.webp" alt="Peinado" />
+        <h1>Peinados</h1>
+        <h3>Utilizando los mejores productos.</h3>
+      </div>
+      <div class="cards">
+        <img src="./images/Makeup.webp" alt="Make up" />
+        <h1>Make up</h1>
+        <h3>La importancia del detalle.</h3>
+      </div>
+    </section>
+
+    <section class="adomicilio">
+      <h1>Desde la comodidad de tu casa.</h1>
+      <h2>Servicio a domicilio.</h2>
+    </section>
+
+    <section class="marcas">
+      <img src="./images/partner_5.jpg" class="partner" alt="Schwarzkopz logo" />
+      <img src="./images/partner-1.jpg" class="partner" alt="Loreal logo" />
+      <img src="./images/partner_4.svg" class="partner" alt="Revlon logo" />
+      <img src="./images/partner-2.jpg" class="partner" alt="Givenchy logo" />
+      <img src="./images/partner-3.jpg" class="partner" alt="Christian Dior logo" />
+      <img src="./images/liss-expert_280x.webp" class="partner" alt="Liss expert logo" />
+    </section>
+
+    <section class="contactoForm" id="contacto">
+      <h2>Contactanos</h2>
+      <input id="namecontact" type="text" placeholder="Nombre completo">
+      <input id="emailcontact" type="email" name="email" id="email" placeholder="Correo electrónico">
+      <input id="msjcontact" type="text-area" placeholder="Mensaje">
+      <input type="submit" value="Enviar" class="btnenviar">
+    </section>
+
+    <div class="whatsapp"><img src="./images/icons8-whatsapp-96.svg"
+        alt="Logo de whatsapp y telefono de contacto" /></a>
+    </div>
+
+    <p class="copyright" style="text-align: center;">diseño: dovrak@pm.me</p>
+  </main>
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+    var prevScrollpos = window.pageYOffset;
+    window.onscroll = function () {
+      var currentScrollPos = window.pageYOffset;
+      if (prevScrollpos > currentScrollPos) {
+        document.getElementById("myTopnav").style.top = "0";
+      } else {
+        document.getElementById("myTopnav").style.top = "-60px";
+      }
+      prevScrollpos = currentScrollPos;
+    }
+
+    var loader = document.getElementById("preloader");
+
+    window.addEventListener("load", function () {
+      loader.style.display = "none";
+    })
+
+  </script>
+</body>
+
+</html>
