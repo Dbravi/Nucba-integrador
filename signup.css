@@ -78,7 +78,7 @@
     }
 
     .form-text a:hover {
-        color: #ffff2b;
+        color: black;
 
     }
 
@@ -161,7 +161,7 @@
     }
 
     .signup-form input:focus {
-        color: #ffff2b;
+        color: black;
     }
 
     .form-text {
@@ -180,8 +180,7 @@
     }
 
     .form-text a:hover {
-        color: #ffff2b;
-
+        color: black;
     }
 
     .signup-submit {
@@ -258,7 +257,7 @@
     }
 
     .signup-form input:focus {
-        color: #ffff2b;
+        color: black;
     }
 
     .form-text {
@@ -277,7 +276,7 @@
     }
 
     .form-text a:hover {
-        color: #ffff2b;
+        color: black;
 
     }
 

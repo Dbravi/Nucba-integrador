@@ -81,7 +81,7 @@
     }
 
     .form-text a:hover {
-        color: #ffff2b;
+        color: black;
 
     }
 
@@ -183,7 +183,7 @@
     }
 
     .form-text a:hover {
-        color: #ffff2b;
+        color: black;
 
     }
 
@@ -268,7 +268,7 @@
     }
 
     .login-form input:focus {
-        color: #ffff2b;
+        color: black;
     }
 
     .form-text {
@@ -287,7 +287,7 @@
     }
 
     .form-text a:hover {
-        color: #ffff2b;
+        color: black;
 
     }
 
