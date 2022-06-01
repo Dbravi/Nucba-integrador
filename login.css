@@ -310,4 +310,9 @@
 
         outline: none;
     }
+    input::placeholder {
+        font-size: 0.8rem;
+        padding: 15px;
+        color: white;
+    }
 }
